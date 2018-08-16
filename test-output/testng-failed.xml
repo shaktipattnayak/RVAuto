@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Raptor vSoft Regression Test Suite]">
+  <listeners>
+    <listener class-name="listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="View Visitor Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="signOutVisitor"/>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- View Visitor Test(failed) -->
+  <test name="Search Visitor Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="advancedSearch_Visitor"/>
+          <include name="logOut"/>
+          <include name="login"/>
+          <include name="basicSearch_Visitor"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- Search Visitor Test(failed) -->
+  <test name="Visitor Reports Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+          <include name="Report_SexOffenderLogged_Visitor"/>
+          <include name="Report_WhoIsInTheBuilding_Visitor"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- Visitor Reports Test(failed) -->
+  <test name="Sign In Student Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="studentDelayedEntryManuallyTest"/>
+          <include name="logOut"/>
+          <include name="signInStudentByQuickFindTest"/>
+          <include name="login"/>
+          <include name="signInStudentManuallyTest"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- Sign In Student Test(failed) -->
+  <test name="Sign Out Student Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="signOutStudentManuallyTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- Sign Out Student Test(failed) -->
+  <test name="Search Student Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="advancedSearch_Student"/>
+          <include name="basicSearch_Student"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- Search Student Test(failed) -->
+  <test name="Student Reports Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="getAvtiveStudentReportTest"/>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- Student Reports Test(failed) -->
+  <test name="Faculty Sign In Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="facultyDelayedEntryTest"/>
+          <include name="signInFacultyTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- Faculty Sign In Test(failed) -->
+  <test name="Faculty Sign Out Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="refreshViewVisitorPage"/>
+          <include name="signOutFacultyTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- Faculty Sign Out Test(failed) -->
+  <test name="Search Faculty Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="basicSearch_Faculty"/>
+          <include name="logOut"/>
+          <include name="login"/>
+          <include name="advancedSearch_Faculty"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- Search Faculty Test(failed) -->
+  <test name="Faculty Reports Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+          <include name="FacultySignInByDateReportTest"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- Faculty Reports Test(failed) -->
+  <test name="Sign In Volunteer Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="volunteerDelayedEntryTest"/>
+          <include name="logOut"/>
+          <include name="login"/>
+          <include name="signInVolunteerTest"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- Sign In Volunteer Test(failed) -->
+  <test name="Create Volunteer Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="signInVolunteerTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- Create Volunteer Test(failed) -->
+  <test name="View Volunteer Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="refreshViewVolunteerPage"/>
+          <include name="signOutVolunteerTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- View Volunteer Test(failed) -->
+  <test name="Search Volunteer Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="advancedSearch_Student"/>
+          <include name="basicSearch_Student"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- Search Volunteer Test(failed) -->
+  <test name="Volunteer Reports Test(failed)">
+    <classes>
+      <class name="com.raptor.testcases.ViewFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewFacultyTest -->
+      <class name="com.raptor.testcases.Search_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_Visitor_Test -->
+      <class name="com.raptor.testcases.ViewVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.ViewVolunteerTest -->
+      <class name="com.raptor.testcases.SignIn_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignIn_StudentTest -->
+      <class name="com.raptor.testcases.VolunteerReportsTest">
+        <methods>
+          <include name="Report_WhoIsInTheBuilding_Volunteer"/>
+          <include name="logOut"/>
+          <include name="VolunteerSignInByDateReport"/>
+          <include name="quitDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VolunteerReportsTest -->
+      <class name="com.raptor.testcases.SearchFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchFacultyTest -->
+      <class name="com.raptor.testcases.VisitorReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.VisitorReportTest -->
+      <class name="com.raptor.testcases.FacultyReportsTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.FacultyReportsTest -->
+      <class name="com.raptor.testcases.CreateVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.CreateVolunteerTest -->
+      <class name="com.raptor.testcases.SearchVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SearchVolunteerTest -->
+      <class name="com.raptor.testcases.SignInFacultyTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInFacultyTest -->
+      <class name="com.raptor.testcases.SignInVolunteerTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignInVolunteerTest -->
+      <class name="com.raptor.testcases.View_Visitor_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.View_Visitor_Test -->
+      <class name="com.raptor.testcases.Visitor_SignIn_Test">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Visitor_SignIn_Test -->
+      <class name="com.raptor.testcases.StudentReportTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.StudentReportTest -->
+      <class name="com.raptor.testcases.SignOutStudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.SignOutStudentTest -->
+      <class name="com.raptor.testcases.Search_StudentTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.raptor.testcases.Search_StudentTest -->
+    </classes>
+  </test> <!-- Volunteer Reports Test(failed) -->
+</suite> <!-- Failed suite [Raptor vSoft Regression Test Suite] -->

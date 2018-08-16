@@ -1,0 +1,120 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Raptor Test Suite">
+
+<listeners>
+        <listener class-name="listener.TestsListenerAdapter"/>  
+        <!-- <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> 
+      	<listener class-name="rough.EmailAttachedTestResult"/>-->
+</listeners> 
+
+
+	<test name="Visitor Sign In Test">
+    	<classes>
+        <class name="com.raptor.testcases.Visitor_SignIn_Test" ></class>  
+    	</classes>
+	</test> 
+
+ 	<test name="View Visitor Test">
+	    <classes>
+	        <class name="com.raptor.testcases.View_Visitor_Test" ></class>  
+	    </classes>
+	</test>
+	
+	<test name="Search Visitor Test">
+	    <classes>
+	        <class name="com.raptor.testcases.Search_Visitor_Test" ></class>  
+	    </classes>
+	</test>  
+	
+ 	<test name="Visitor Reports Test">
+	    <classes>
+	        <class name="com.raptor.testcases.VisitorReportTest" ></class>  
+	    </classes>
+	</test> 
+	
+	<test name="Sign In Student Test">
+	    <classes>
+	        <class name="com.raptor.testcases.SignIn_StudentTest" ></class>  
+	    </classes>
+	</test>
+		
+	<test name="Sign Out Student Test">
+	    <classes>
+	        <class name="com.raptor.testcases.SignOutStudentTest" ></class>  
+	    </classes>
+	</test> 
+	
+	<test name="Search Student Test">
+	    <classes>
+	        <class name="com.raptor.testcases.Search_StudentTest" ></class>  
+	    </classes>
+	</test> 
+	
+	<test name="Student Reports Test">
+	    <classes>
+	        <class name="com.raptor.testcases.StudentReportTest" ></class>  
+	    </classes>
+	</test>
+	
+	<test name="Faculty Sign In Test">
+	    <classes>
+	        <class name="com.raptor.testcases.SignInFacultyTest" ></class>  
+	    </classes>
+	</test>
+	
+	<test name="Faculty Sign Out Test">
+	    <classes>
+	        <class name="com.raptor.testcases.ViewFacultyTest" ></class>  
+	    </classes>
+	</test>
+	
+	<test name="Search Faculty Test">
+	    <classes>
+	        <class name="com.raptor.testcases.SearchFacultyTest" ></class>  
+	    </classes>
+	</test>	
+	
+ 	<test name="Faculty Reports Test">
+	    <classes>
+	        <class name="com.raptor.testcases.FacultyReportsTest" ></class>  
+	    </classes>
+	</test>  
+	
+<test name="Sign In Volunteer Test">
+	    <classes>
+	        <class name="com.raptor.testcases.SignInVolunteerTest" ></class>  
+	    </classes>
+	</test>
+	
+	<test name="Create Volunteer Test">
+	    <classes>
+	        <class name="com.raptor.testcases.CreateVolunteerTest" ></class>  
+	    </classes>
+	</test>
+	
+	<test name="View Volunteer Test">
+	    <classes>
+	        <class name="com.raptor.testcases.ViewVolunteerTest" ></class>  
+	    </classes>
+	</test>
+	
+	<test name="Search Volunteer Test">
+	    <classes>
+	        <class name="com.raptor.testcases.SearchVolunteerTest" ></class>  
+	    </classes>
+	</test>
+	
+	<test name="Volunteer Reports Test">
+	    <classes>
+	        <class name="com.raptor.testcases.VolunteerReportsTest" ></class>  
+	    </classes>
+	</test>
+	
+	<!-- <test name="Sex Offender Test">
+	    <classes>
+	        <class name="com.raptor.testcases.SexOffenderAlertTest" ></class>  
+	    </classes>
+	</test> -->
+	
+</suite>

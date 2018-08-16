@@ -1,0 +1,12 @@
+#productionURL=http://apps.raptorware.com/vsoft/
+#stagingURL=http://staging.raptorware.com/vsoft/
+BaseURL=http://apps.raptorware.com/vsoft/
+username =sprasanna@raptortech.com
+password=raptor
+browser=FF
+Client=fola school district
+Building=Shakti Testing
+
+#QA automation
+#
+#vsofttestclient

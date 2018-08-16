@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Raptor Test Suite">
+
+<listeners>
+        <listener class-name="listener.TestsListenerAdapter"/>  
+</listeners> 
+
+<test name="Sex Offender Test">
+	    <classes>
+	        <class name="com.raptor.testcases.SexOffenderAlertTest" ></class>  
+	    </classes>
+</test>
+	
+</suite>

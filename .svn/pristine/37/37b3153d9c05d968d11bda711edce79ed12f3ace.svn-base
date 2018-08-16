@@ -1,0 +1,105 @@
+package com.raptor.util;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Properties;
+
+import javax.activation.DataHandler;
+import javax.activation.DataSource;
+import javax.activation.FileDataSource;
+import javax.mail.BodyPart;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.Multipart;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeBodyPart;
+import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeMultipart;
+
+public class SendAttachmentInEmail {
+	
+   public static void SendAttachmentInEmail1() {
+	  // TestUtil.delay(90000);
+		new AppZip();
+      // Recipient's email ID needs to be mentioned.
+      //String to = "AVenkatesha@raptortech.com";
+	   String to = "QATeam@raptortech.com";
+      // Sender's email ID needs to be mentioned
+      String from = "sprasanna@raptortech.com";
+
+      final String username = "sprasanna@raptortech.com";//change accordingly
+      final String password = "Vsoft126";//change accordingly
+
+      String host ="smtp.office365.com";
+      Properties props = new Properties();
+      props.put("mail.smtp.auth", "true");
+      props.put("mail.smtp.starttls.enable", "true");
+      props.put("mail.smtp.host", host);
+      props.put("mail.smtp.port", "587");
+     
+
+      // Get the Session object.
+      Session session = Session.getInstance(props,
+         new javax.mail.Authenticator() {
+            protected PasswordAuthentication getPasswordAuthentication() {
+               return new PasswordAuthentication(username, password);
+            }
+         });
+
+      try {
+         // Create a default MimeMessage object.
+         Message message = new MimeMessage(session);
+
+         // Set From: header field of the header.
+         message.setFrom(new InternetAddress(from));
+
+         // Set To: header field of the header.
+         message.setRecipients(Message.RecipientType.TO,
+            InternetAddress.parse(to));
+
+         //For getting todays date format.
+         	Date date = new Date();
+			SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+       
+         // Set Subject: header field
+         message.setSubject("Test Execution Result: "+dateFormat.format(date));
+
+         // Create the message part
+         BodyPart messageBodyPart = new MimeBodyPart();
+
+         // Now set the actual message
+         messageBodyPart.setText("Hi All,");
+         messageBodyPart.setText("Hi All, Please Find the attached test execution report. Download the attachment unzip it and open the Index.HTML file ");
+
+         // Create a multipar message
+         Multipart multipart = new MimeMultipart();
+
+         // Set text message part
+         multipart.addBodyPart(messageBodyPart);
+
+         // Part two is attachment
+         messageBodyPart = new MimeBodyPart();
+         String filename = "C:\\Raptor\\Reports\\vSoftTestReport.zip";
+        		 //"D://Project//Raptor//Raptor_Automation//vSoftAutomation//test-output//emailable-report.html";
+         
+         DataSource source = new FileDataSource(filename);
+         messageBodyPart.setDataHandler(new DataHandler(source));
+         messageBodyPart.setFileName(filename);
+         multipart.addBodyPart(messageBodyPart);
+
+         // Send the complete message parts
+         message.setContent(multipart);
+
+         // Send message
+         Transport.send(message);
+
+         System.out.println("Sent Attached Test Report Email Sccessfully...");
+  
+      } catch (MessagingException e) {
+         throw new RuntimeException(e);
+      }
+   }
+}
